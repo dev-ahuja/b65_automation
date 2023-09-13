@@ -10,11 +10,11 @@ terraform {
 
 #"~>1.4" this is the most common way of defining the terraform version in your code.
 
-provider "aws" {
-  region = "us-east-1"
-  profile = "batch_sept"
-  assume_role {
-    role_arn = ""
-    session_name = "batch sept provisioning"
-  }
-}
+# provider "aws" {
+#   region = "us-east-1"
+#   profile = "batch_sept"
+#   assume_role {
+#     role_arn = ""
+#     session_name = "batch sept provisioning"
+#   }
+# }
